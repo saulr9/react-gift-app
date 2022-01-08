@@ -3,11 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
-const test = true;
 function App() {
-  function handleClick(item) {
-    console.log('You clicked me!', item);
-  }
   return (
     <div className="App">
       <Header />
