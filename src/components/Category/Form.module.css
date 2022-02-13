@@ -1,0 +1,38 @@
+form {
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1200px;
+  overflow-x: hidden;
+  position: relative;
+}
+input {
+  background-color: #ffffff;
+  border: none;
+  font-size: 18px;
+  min-height: 40px;
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  input {
+    text-align: center;
+  }
+}
+input:focus {
+  border-color: transparent;
+  outline: 0;
+}
+button {
+  background-image: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 50%, rgb(153, 51, 255) 100%);
+  background-size: 400%;
+  background-position: 0% 100%;
+  border: none;
+  color:#ffffff;
+  content: "";
+  cursor: pointer;
+  inset: 0px;
+  left: initial;
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+}
