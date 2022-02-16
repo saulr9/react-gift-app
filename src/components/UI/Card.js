@@ -7,6 +7,7 @@ function Card({ img, title, user }) {
   const { display_name: userDisplayName, avatar_url: userAvatar } = user;
   const [loaded, setLoaded] = useState(false);
   const [hovered, setHovered] = useState(false);
+
   return (
     <div
       className={`${styles.card} ${!loaded && styles.card__loading} ${
