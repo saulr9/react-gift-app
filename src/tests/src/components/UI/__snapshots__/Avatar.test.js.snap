@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing UI/Avatar component Should render Avatar Component 1`] = `
+<div
+  className="avatar"
+  style={
+    Object {
+      "backgroundImage": "url(https://www.w3schools.com/w3css/img_lights.jpg)",
+    }
+  }
+/>
+`;

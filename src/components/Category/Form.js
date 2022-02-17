@@ -21,6 +21,7 @@ function Form({ setCategories }) {
       <input
         className={styles.input}
         type="text"
+        id="input_search"
         placeholder="Search category"
         value={inputValue}
         onChange={handleChange}

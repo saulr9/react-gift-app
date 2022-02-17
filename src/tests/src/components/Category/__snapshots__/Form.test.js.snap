@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Category form component Should render Form 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <input
+    className="input"
+    id="input_search"
+    onChange={[Function]}
+    placeholder="Search category"
+    type="text"
+    value=""
+  />
+  <Button
+    buttonText="Buscar"
+    className="button"
+    handleSubmit={[Function]}
+  />
+</form>
+`;

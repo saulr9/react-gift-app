@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing UI/Card component Should render Card Component 1`] = `
+<div
+  className="card card__loading false"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="card__images"
+  >
+    <img
+      alt="goku"
+      onLoad={[Function]}
+      src="https://www.w3schools.com/w3css/img_lights.jpg"
+    />
+    ;
+  </div>
+  <div
+    className="card__details"
+  >
+    <Avatar
+      img="https://gravatar.com/avatar/311ef4fa1fabdbc9b36d45f2ef906545?s=400&d=mp&r=x"
+      username="No username"
+    />
+    <p>
+      goku
+    </p>
+  </div>
+</div>
+`;
