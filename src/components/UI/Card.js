@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import PropTypes, { objectOf } from 'prop-types';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 import Avatar from './Avatar/Avatar';
 import styles from './Card.module.css';
 

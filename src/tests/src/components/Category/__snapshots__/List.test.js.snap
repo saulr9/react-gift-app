@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing category List component should render List component - Match SnapShot 1`] = `
+<Fragment>
+  <Form
+    setCategories={[Function]}
+  />
+  <div
+    className="list"
+  />
+</Fragment>
+`;
+
+exports[`Testing category List component should there 2 grid items if there are 2 categories 1`] = `
+<Fragment>
+  <Form
+    setCategories={[Function]}
+  />
+  <div
+    className="list"
+  >
+    <Grid
+      category="goku"
+      key="goku"
+    />
+    <Grid
+      category="vegeta"
+      key="vegeta"
+    />
+  </div>
+</Fragment>
+`;

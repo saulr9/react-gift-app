@@ -1,14 +1,11 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import Form from './Form';
 import Grid from './Grid';
 import styles from './List.module.css';
 
-function List() {
-  const [categories, setCategories] = useState([
-    'Dragon Ball',
-    'Naruto',
-    'One Punch Man'
-  ]);
+function List({ defaultCategories }) {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
@@ -21,5 +18,10 @@ function List() {
     </>
   );
 }
-
+List.propTypes = {
+  defaultCategories: PropTypes.arrayOf(PropTypes.string)
+};
+List.defaultProps = {
+  defaultCategories: []
+};
 export default List;

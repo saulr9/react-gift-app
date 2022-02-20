@@ -7,7 +7,8 @@
     "extends": [
         "airbnb",
         "prettier",
-        "plugin:react/jsx-runtime"
+        "plugin:react/jsx-runtime",
+        "plugin:import/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -16,13 +17,18 @@
         "ecmaVersion": 13,
         "sourceType": "module"
     },
-    "plugins": ["prettier"],
+    "plugins": ["prettier", "import"],
     "rules": {
       "prettier/prettier": ["warn"],
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "no-console": "warn",
       "no-undef": "warn",
       "no-unused-vars": "warn",
-      "jsx-quotes": "error"
+      "jsx-quotes": "error",
+      "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
+      "import/named": 2,
+      "import/namespace": 2,
+      "import/default": 2,
+      "import/export": 2
     }
 }

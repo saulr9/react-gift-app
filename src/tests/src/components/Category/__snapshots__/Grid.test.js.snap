@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Category Grid Component Should match snapshot - Initial render with no data and loading true 1`] = `
+<Fragment>
+  Loading...
+</Fragment>
+`;
+
+exports[`Testing Category Grid Component Should match snapshot - With gifs data and loading false 1`] = `
+<Fragment>
+  <GridItem
+    gif={
+      Object {
+        "id": "ABC",
+        "title": "Cualquier cosa",
+        "url": "https://localhost/cualquier/cosa.jpg",
+      }
+    }
+  />
+  <GridItem
+    gif={
+      Object {
+        "id": "123",
+        "title": "Otra cosa",
+        "url": "https://localhost/cualquier/cosa.jpg",
+      }
+    }
+  />
+</Fragment>
+`;

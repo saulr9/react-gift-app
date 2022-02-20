@@ -1,10 +1,11 @@
 import './App.css';
 import List from './components/Category/List';
 
+const defaultCategories = ['Dragon Ball', 'Naruto', 'One Punch Man'];
 function App() {
   return (
     <div className="App">
-      <List />
+      <List defaultCategories={defaultCategories} />
     </div>
   );
 }
